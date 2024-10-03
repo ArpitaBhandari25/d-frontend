@@ -1,11 +1,11 @@
 import React from 'react';
-import './Insert.css';
+import './Update.css';
 
 
-const Insert = () => {
+const Update = () => {
   return (
     <div className="form-container">
-      <h1 className="form-title">Insert New Room</h1>
+      <h1 className="form-title">Update the Room</h1>
       <form className="room-form">
         <div className="form-group">
           <label htmlFor="roomId" className="form-label">Room ID:</label>
@@ -30,6 +30,18 @@ const Insert = () => {
             <option value="Family">Family</option>
           </select>
         </div>
+        <div className="form-group">
+          <label htmlFor="roomType" className="form-label">Status:</label>
+          <select
+            id="status"
+            required
+            className="form-input"
+          >
+            <option value="">Select Room Status</option>
+            <option value="Available">Available</option>
+            <option value="Reserved">Reserved</option>
+          </select>
+        </div>
 
         <div className="form-group">
           <label htmlFor="price" className="form-label">Price:</label>
@@ -43,11 +55,11 @@ const Insert = () => {
         </div>
 
         <button type="submit" className="submit-button">
-          Insert Room
+          Update Room 
         </button>
       </form>
     </div>
   );
 };
 
-export default Insert;
+export default Update;
