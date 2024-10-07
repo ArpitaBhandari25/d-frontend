@@ -1,11 +1,11 @@
 import React from 'react';
-import './RoomsManagement.css';
+import './MainPageHotel.css';
 import { MdOutlineAddBox } from "react-icons/md"; 
 import { RiDeleteBinLine } from "react-icons/ri";
 import { MdOutlineHotel } from "react-icons/md";
 import { FaPen } from "react-icons/fa6";
 
-const RoomsManagement = () => {
+const MainPageHotel = () => {
   return (
     <div>
       <div className="main-title">
@@ -51,4 +51,4 @@ const RoomsManagement = () => {
   );
 };
 
-export default RoomsManagement;
+export default MainPageHotel;
