@@ -9,10 +9,12 @@ import Delete from './Components/Delete/Delete';
 import Update from './Components/Update/Update';
 import GuestLogin from './Components/GuestLogin/GuestLogin';
 import GuestSignup from './Components/GuestLogin/GuestSignup';
+import HotelRoom from './Components/Rooms/HotelRoom';
+
 
 const App = () => {
   return (
-    < MainPageGuest/>
+    < HotelRoom/>
   );
 };
 
